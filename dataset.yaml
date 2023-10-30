@@ -1,0 +1,5 @@
+path: ../ts/ts  # dataset root dir
+train: train  # train images and labels (relative to 'path')
+val: val  # val images and labels (relative to 'path')
+nc: 4  # number of classes
+names: ['prohibitory', 'danger', 'mandatory', 'other']  # class names
